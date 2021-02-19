@@ -1,3 +1,5 @@
+cailing corrected: sailing 
+outpet corrected: output 
 
-missed word count: 0
-total word count: 34
+Number of misspelled words: 2
+total word count: 76

@@ -134,18 +134,22 @@ class Spelling {
 					writer.write("corrected: ");
 					writer.write(corrected);
 					writer.write(" ");
+					writer.write('\n');
 					missed++;
 
 				}
 
 			}
-			writer.write('\n');
-			writer.write("missed word count: " + missed);
-			writer.write('\n');
-			writer.write("total word count: " + count);
-			writer.close();
+
+
+
 
 		}
+		writer.write('\n');
+		writer.write("Number of misspelled words: " + missed);
+		writer.write('\n');
+		writer.write("total word count: " + count);
+		writer.close();
 
 
 	}
